@@ -1,0 +1,33 @@
+{
+  "name": "audio-captcha",
+  "version": "1.0.14",
+  "description": "",
+  "main": "./lib/Audio-Captcha.js",
+  "types": "./lib/Audio-Captcha.d.ts",
+  "scripts": {
+    "start:build": "tsc -p . && npm publish"
+  },
+  "keywords": [
+    "captcha",
+    "audio-captcha",
+    "audio",
+    "mp3",
+    "voice",
+    "voice-captcha"
+  ],
+  "author": "ApiDev234 <apidev234@yandex.com> (https://apidev234.tk)",
+  "license": "Creative Commons v1.0",
+  "repository": "github:apidev234/Audio-Captcha",
+  "readme": "https://github.com/apidev234/Audio-Captcha#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.5.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "soundoftext-js": "^1.0.2"
+  }
+}
